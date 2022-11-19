@@ -28,6 +28,8 @@ void Number(int number)
     Console.WriteLine("Некорректное число!");
 }
  */
+
+ 
 /*
 int x1 = ReadInt("Введите координату X первой точки: ");
 
@@ -48,6 +50,20 @@ int C = z1 - z2;
 double length = Math.Sqrt(A * A + B * B + C * C);
 
 Console.WriteLine($"Длинна отрезка {length}");
+
+int ReadInt(string message)
+{
+    Console.Write(message);
+    return Convert.ToInt32(Console.ReadLine());
+}
+*/
+/*
+int number = ReadInt("Введите число N: ");
+
+for (int i = 1; i <= number; i++)
+{ 
+    Console.Write($"{i*i*i} ");
+}
 
 int ReadInt(string message)
 {
